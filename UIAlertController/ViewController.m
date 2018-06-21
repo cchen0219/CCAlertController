@@ -23,7 +23,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 
-    
+    //alert
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
     
     btn.frame = CGRectMake(100, 100, 200, 50);
@@ -33,7 +33,7 @@
     
     [self.view addSubview:btn];
     
-    
+    //AlertAndtextfield
     UIButton *redColorbtn = [UIButton buttonWithType:UIButtonTypeSystem];
     
     redColorbtn.frame = CGRectMake(100, 200, 200, 50);
@@ -45,6 +45,8 @@
     [self.view addSubview:redColorbtn];
     
     
+    
+    //sheet
     UIButton *Colorbtn = [UIButton buttonWithType:UIButtonTypeSystem];
     
     Colorbtn.frame = CGRectMake(100, 300, 200, 50);
